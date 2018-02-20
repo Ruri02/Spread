@@ -15,6 +15,10 @@
 		B317742B1FF4BC4900BE1F70 /* SpreadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B317742A1FF4BC4900BE1F70 /* SpreadTests.swift */; };
 		B31774361FF4BC4900BE1F70 /* SpreadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31774351FF4BC4900BE1F70 /* SpreadUITests.swift */; };
 		B3C4A8CC200E028F001C0DB2 /* ToDo_ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C4A8CB200E028F001C0DB2 /* ToDo_ControlViewController.swift */; };
+		B3C4A8CE20174E3B001C0DB2 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C4A8CD20174E3B001C0DB2 /* MemoViewController.swift */; };
+		B3D4D996203C3B32003FEBE3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B3D4D995203C3B32003FEBE3 /* icon.png */; };
+		B3D9CB47202074E10013ADE7 /* Memo_2ndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D9CB46202074E10013ADE7 /* Memo_2ndViewController.swift */; };
+		B3D9CB492020849E0013ADE7 /* Memo_3rdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D9CB482020849E0013ADE7 /* Memo_3rdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		B31774351FF4BC4900BE1F70 /* SpreadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadUITests.swift; sourceTree = "<group>"; };
 		B31774371FF4BC4900BE1F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3C4A8CB200E028F001C0DB2 /* ToDo_ControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_ControlViewController.swift; sourceTree = "<group>"; };
+		B3C4A8CD20174E3B001C0DB2 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		B3D4D995203C3B32003FEBE3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B3D9CB46202074E10013ADE7 /* Memo_2ndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo_2ndViewController.swift; sourceTree = "<group>"; };
+		B3D9CB482020849E0013ADE7 /* Memo_3rdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo_3rdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				B31774151FF4BC4900BE1F70 /* AppDelegate.swift */,
+				B3D4D995203C3B32003FEBE3 /* icon.png */,
 				B31774171FF4BC4900BE1F70 /* ViewController.swift */,
 				B31774191FF4BC4900BE1F70 /* Main.storyboard */,
 				B317741C1FF4BC4900BE1F70 /* Assets.xcassets */,
 				B317741E1FF4BC4900BE1F70 /* LaunchScreen.storyboard */,
 				B31774211FF4BC4900BE1F70 /* Info.plist */,
 				B3C4A8CB200E028F001C0DB2 /* ToDo_ControlViewController.swift */,
+				B3C4A8CD20174E3B001C0DB2 /* MemoViewController.swift */,
+				B3D9CB46202074E10013ADE7 /* Memo_2ndViewController.swift */,
+				B3D9CB482020849E0013ADE7 /* Memo_3rdViewController.swift */,
 			);
 			path = Spread;
 			sourceTree = "<group>";
@@ -237,6 +249,7 @@
 			files = (
 				B31774201FF4BC4900BE1F70 /* LaunchScreen.storyboard in Resources */,
 				B317741D1FF4BC4900BE1F70 /* Assets.xcassets in Resources */,
+				B3D4D996203C3B32003FEBE3 /* icon.png in Resources */,
 				B317741B1FF4BC4900BE1F70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C4A8CE20174E3B001C0DB2 /* MemoViewController.swift in Sources */,
+				B3D9CB47202074E10013ADE7 /* Memo_2ndViewController.swift in Sources */,
+				B3D9CB492020849E0013ADE7 /* Memo_3rdViewController.swift in Sources */,
 				B31774181FF4BC4900BE1F70 /* ViewController.swift in Sources */,
 				B31774161FF4BC4900BE1F70 /* AppDelegate.swift in Sources */,
 				B3C4A8CC200E028F001C0DB2 /* ToDo_ControlViewController.swift in Sources */,
